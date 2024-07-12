@@ -20,7 +20,15 @@ def afficher_liste():
             print(f"{i}. {article}")
 
 def supprimer_article():
-    pass # a faire en devoir
+    # une bonne pratique quand tu as pas encore implementer ton code cest de le decrire en commentaire
+
+    # Si liste est pas vide --> caller afficher_liste pour montrer au user quoi il peu delete (if)
+    #  ->  Ensuite demander au user quel chiffre correspond au truc a deleter (input)
+    #  ->  Si chiffre est dans liste (if input in liste)
+    #  ->  ->  retirer element a l'index donner par le user
+    #  ->  Sinon redemander a l'utilisateur de choisir (ou ramener au menu selon ton choix) (else)
+    # Sinon liste est vide --> afficher message comme quoi ya fuckall a deleter (else)
+    pass
 
 user_input: str | None = None
 liste: list[str] = []
