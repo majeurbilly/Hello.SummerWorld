@@ -19,7 +19,7 @@ def afficher_liste():
         for i, article in enumerate(liste, 1)
             print(f"{i}. {article}")
 
-def supprimer_article()
+def supprimer_article():
     pass # a faire en devoir
 
 user_input: str | None = None
