@@ -16,7 +16,7 @@ def afficher_liste():
     if not liste:
         print("Liste vide!")
     else:
-        for i, article in enumerate(liste, 1)
+        for i, article in enumerate(liste, 1):
             print(f"{i}. {article}")
 
 def supprimer_article():
