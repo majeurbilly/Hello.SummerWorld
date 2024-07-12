@@ -18,4 +18,4 @@ def afficher_liste(liste):
         for i, article in enumerate(liste, 1)
             print(f"{i}. {article}")
 
-
+                                    #À SUIVRE DANS UNE PROCHAINE ÉPISODE
