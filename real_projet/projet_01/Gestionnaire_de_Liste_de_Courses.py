@@ -1,3 +1,4 @@
+
 def afficher_menu():
     print("\nMenu: ")
     print("1. Ajoutez un article: ")
@@ -49,10 +50,7 @@ def gestionnaire_liste_de_courses():
             break
         else:
             print("choix pas valide man.")
-# def gestionnaire_liste_de_courses fuck impotant. faut je la comprenne plus!
+
 
 gestionnaire_liste_de_courses()
-
-# javais un crochet vert, jai changer une affaire et la jai 2 triangles avec !
-# chiant.. mais sa marche
 
