@@ -38,8 +38,8 @@ def supprimer_article(liste):
 def gestionnaire_liste_de_courses():
     liste_de_courses = []
     while True:
-        afficher_liste()     #j'avais oublier ca aussi hahah cetais lourd
-        choix = input("choisissez une option : ")
+        afficher_menu()
+        choix = input("choisissez une numero : ")
         if choix == '1':
             ajouter_article(liste_de_courses)
         elif choix == '2':
@@ -52,3 +52,7 @@ def gestionnaire_liste_de_courses():
 # def gestionnaire_liste_de_courses fuck impotant. faut je la comprenne plus!
 
 gestionnaire_liste_de_courses()
+
+# javais un crochet vert, jai changer une affaire et la jai 2 triangles avec !
+# chiant.. mais sa marche
+
