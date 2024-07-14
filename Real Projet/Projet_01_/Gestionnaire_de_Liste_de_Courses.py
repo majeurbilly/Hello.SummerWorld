@@ -37,14 +37,17 @@ def supprimer_article(liste):
 
 def gestionnaire_liste_de_courses():
     liste_de_courses = []
-    choix = input("choisissez une option : ")
-    if choix == '1':
-        ajouter_article(liste_de_courses)
-    elif choix == '2':
-        afficher_liste(liste_de_courses)
-    elif choix == '4':
-        print("Au revoir!!")
-        break
-    else:
-        print("choix pas valide man.")
+    while True:
+        choix = input("choisissez une option : ")
+        if choix == '1':
+            ajouter_article(liste_de_courses)
+        elif choix == '2':
+            afficher_liste(liste_de_courses)
+        elif choix == '4':
+            print("Au revoir!!")
+            break
+        else:
+            print("choix pas valide man.")
 
+
+gestionnaire_liste_de_courses()
