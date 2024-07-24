@@ -5,6 +5,8 @@ from real_projet.projet_01.liste_de_course.supprimer import supprimer_article
 
 def gestionnaire_liste_de_courses():
     liste_de_courses = []
+    # input --> function
+    # int  --> type
     choix = None
     while choix != '4':   # Une condition c'est meilleur qu'un while True (while choix n'est pas egale a 4)
         afficher_menu()
@@ -21,5 +23,6 @@ def gestionnaire_liste_de_courses():
             print("choix pas valide man.")
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":  # main guard
+    # point entree
     gestionnaire_liste_de_courses()
