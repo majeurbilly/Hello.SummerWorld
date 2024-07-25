@@ -14,9 +14,9 @@ mon_set = {1, 2, 3, 4, 5}
 valeur_1 = None
 valeur_2 = True
 valeur_3 = False
-octets = b"commprend pas encore"
-tableau_octets = bytearray(b"wtf")
-vue = memoryview(b"wtfx1000")
+octets = b"commprend pas encore"                                #todo
+tableau_octets = bytearray(b"wtf")                              #todo moustache explication
+vue = memoryview(b"wtfx1000")                                   #todo
 
 
 print(x)
