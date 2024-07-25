@@ -1,0 +1,65 @@
+Jour 1 : Les Bases de Python
+1. **Variables**    #Variable : Un conteneur nommé pour stocker des données.
+   - Définition et création de variables
+2. **Types de Données**     #Type de Données : La nature de la valeur contenue dans la variable.
+   2.1- int (nombre entier)
+   2.2- float (nombre décimal)
+   2.3- str (chaîne de caractères)
+   2.4- bool (booléen - verifie les conditions)
+   2.5- list (collection ordonné modifiable)
+   2.6- tuple (Collection ordonné immuable *non modifiable)
+   2.7- dict (dictionnaire - collection de paire clé-valeur)
+   2.8- set (ensemble - valeur unique non ordonné)
+
+
+
+3. **Opérations de Base**
+   - Opérateurs arithmétiques : `+`, `-`, `*`, `/`, `%`
+   - Opérateurs logiques : `and`, `or`, `not`
+
+### Jour 2 : Contrôle de Flux
+4. **Instructions Conditionnelles**
+   - if, elif, else
+5. **Boucles**
+   - for
+   - while
+6. **Gestion des Erreurs**
+   - try, except
+
+### Jour 3 : Structures de Données
+7. **Listes**
+   - Création, accès, modification
+8. **Dictionnaires**
+   - Création, accès, modification
+9. **Tuples et Ensembles**
+   - Création, accès
+
+### Jour 4 : Fonctions et Modules
+10. **Fonctions**
+    - Définition et appel
+11. **Modules**
+    - Importation et utilisation
+12. **Manipulation de Fichiers**
+    - Lecture et écriture de fichiers
+
+### Jour 5 : Manipulation Avancée des Données
+13. **Manipulation des Chaînes**
+    - Techniques avancées
+14. **Compréhensions de Listes**
+    - Syntaxe et utilisation
+15. **Dates et Heures**
+    - Utilisation des dates et heures
+
+### Jour 6 : Programmation Orientée Objet
+16. **Concepts de Base de la POO**
+    - Classes et objets
+17. **Méthodes et Attributs**
+    - Utilisation et modification
+
+### Jour 7 : Python Pratique et Intégration AI
+18. **Manipulation de JSON**
+    - Lecture et écriture
+19. **Gestion des Erreurs et Débogage**
+    - Techniques de base
+20. **Introduction aux Bibliothèques AI**
+    - NumPy, NLTK

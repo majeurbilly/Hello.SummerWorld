@@ -1,3 +1,6 @@
+
+#Variable : Un conteneur nommé pour stocker des données.
+
 x = "billy"
 y = 42
 y = 3.14
