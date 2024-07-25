@@ -29,10 +29,10 @@ age = "69"
 f = "Stu" + " " + "quelques" + " " + "chose" + " " + "de" + " " + "fessable" + "?"
 g = " ".join(["Stu", "quelques", "chose", "de", "fessable?"])
 
-                              chaine = str(123)
-                                print(chaine)
-                            chaine = str("salut comment ca va")
-                                print(chaine)
+                              chaine_1 = str(123)
+                                print(chaine_1)     # Affiche 123
+                            chaine_2 = str("salut comment ca va")
+                                print(chaine_2)     # Affiche salut comment ca va
 
 
 #bool (booléen ; verifie les conditions) : #2.4
