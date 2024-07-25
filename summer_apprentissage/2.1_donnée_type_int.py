@@ -9,7 +9,7 @@ a = 2
 b = 4
 resultat = a + nombre_2
 compteur_1 = 0
-compteur_1 += 69  #todo yo moustache tell me la raison d'etre de ce compteur plz
+compteur_1 += 69                    #todo yo moustache tell me la raison d'etre de ce compteur plz
 compteur_2 = 68
 compteur_2 -= 69
 
@@ -24,8 +24,8 @@ print(a - b)
 print(a * b)
 print(a / b)
 print(a // b)  # Division entière
-print(a % b)   # Modulo #todo wtf moustache c quoi ca
-print(a ** b)  # Puissance #todo wtf
+print(a % b)   # Modulo                                      #todo wtf moustache c quoi ca
+print(a ** b)  # Puissance                                      #todo wtf
 print(resultat)
 print(compteur_1)
 print(compteur_2)
