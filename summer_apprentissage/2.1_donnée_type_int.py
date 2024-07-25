@@ -16,7 +16,7 @@ x = 5
 y = 10
 nombre_3 = 17                           #todo
 diviseur = 4                            #todo stu utile dans vie, comme dirait un eleve a son prof
-quotient = nombre_3 // diviseur         #todo
+quotient = nombre_3 // diviseur         #todo ce n'est pas tant une question, ca fait juste mal a tete comprendre
 reste = nombre_3 % diviseur             #todo
 #for i in range(5):  #1
     #print(i)        #1                 #todo ca devient de plus en plus caliss a écrire ces notes
