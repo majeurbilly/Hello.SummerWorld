@@ -3,7 +3,7 @@
 #Type de Données : La nature de la valeur contenue dans la variable.
 
 
-#int (nombre entier) :
+#int (nombre entier) : #2.1
 age = 25
 pomme = 72
 jours = 365
@@ -13,7 +13,7 @@ dette de mouton = -6
                               print(nombre)  # Affiche 42
 
 
-#float (nombre décimal) :
+#float (nombre décimal) : #2.2
 pi = 3.14
 temperature = -10.5
 prix du gaz = 1.83
@@ -22,7 +22,7 @@ prix du gaz = 1.83
                               print(nombre_flottant)  # Affiche 3.14
 
 
-#str (chaîne de caractères) :
+#str (chaîne de caractères) : #2.3
 greeting = "Salutation"
 nom = "Billy"
 age = "69"
@@ -35,7 +35,7 @@ g = " ".join(["Stu", "quelques", "chose", "de", "fessable?"])
                                 print(chaine)
 
 
-#bool (booléen ; verifie les conditions) :
+#bool (booléen ; verifie les conditions) : #2.4
 lumiere.allumee = True
 lumiere.fermee = False
 utilisateur_connecte = True
@@ -63,7 +63,7 @@ print(bool(False))   # Affiche False
                                     print(valeur_booleenne)  # Affiche False
 
 
-#list (liste ; collection ordonné modifiable) :
+#list (liste ; collection ordonné modifiable) : #2.5
 numbers = [1, 2, 3, 4]
 fruits = ["pomme", "banane", "cerise"]
 
@@ -71,21 +71,21 @@ fruits = ["pomme", "banane", "cerise"]
                                     print(ma_liste)  # Affiche [10, 20, 30]
 
 
-#tuple (tuple ; collection ordonné immuable *non modifialbe) :
+#tuple (tuple ; collection ordonné immuable *non modifialbe) : #2.6
 coordinates = (10, 20)
 
                                 mon_tuple = (10, 20, 30)
                                     print(mon_tuple)  # Affiche (10, 20, 30)
 
 
-#dict (dictionnaire ; collection paire, clé-valeur) :
+#dict (dictionnaire ; collection paire, clé-valeur) :  #2.7
 student = {"name": "Alice", "age": 25}
 
                                 mon_dict = {"nom": "Alice", "âge": 25, "ville": "Paris"}
                                     print(mon_dict)  # Affiche {'nom': 'Alice', 'âge': 25, 'ville': 'Paris'}
 
 
-#set (ensemble ; valeur unique non ordonné) :
+#set (ensemble ; valeur unique non ordonné) :  #2.8
 unique_numbers = {1, 2, 3, 4}
 
                                 fruits = set(["pomme", "banane", "cerise"])
