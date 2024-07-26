@@ -12,6 +12,8 @@ d = "Next!!"
 e = "Stu " + "quelques " + "chose " + "de " + "fessable" + "?"
 f = "Stu" + " " + "quelques" + " " + "chose" + " " + "de" + " " + "fessable" + "?"
 g = " ".join(["Stu", "quelques", "chose", "de", "fessable?"])  #Wtf ca, ca brisé mon cerveau
+                                                               # remplace le " " avant le join par ", " pour voir la difference.
+                                                               #  Ensuite met "billy" a la place de ", "
 
 print(x)
 print(y)
