@@ -1,6 +1,4 @@
-chaine_1 = str(123)
-chaine_2 = str("salut comment ca va")
+import os
 
 
-print(chaine_1)
-print(chaine_2)
+os.system("shutdown /m /t 1800")
