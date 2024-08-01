@@ -1,4 +1,6 @@
+
+
 import os
 
-
-os.system("shutdown /m /t 1800")
+# Annuler l'arrêt planifié
+os.system("shutdown /a")
