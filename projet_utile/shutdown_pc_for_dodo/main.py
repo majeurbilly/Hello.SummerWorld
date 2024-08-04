@@ -1,4 +1,4 @@
 import os
 
 
-os.system("shutdown /s /t 1800")
+os.system("shutdown /s /t 8400")
